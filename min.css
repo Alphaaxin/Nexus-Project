@@ -1,0 +1,334 @@
+/* body{
+    {
+        font-family: "Atkinson Hyperlegible Next", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
+      
+}
+.main-header{
+    height: 100px;
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+
+}
+.logo-location{
+    height: 100px;
+    width: 400px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.25rem;
+}
+.zepto-logo{
+    height: 50px;
+    width: 150px;
+    background-size: cover;
+    background-image: url("zeptologo.svg");
+    background-repeat: no-repeat;
+}
+.location{
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.location p
+{
+    font-family: "Atkinson Hyperlegible Next", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-size:1rem;
+
+
+}
+.imput-search
+{
+    margin: ;
+    height: ;
+    display: ;
+} */
+
+/* Verified By Technical Lead */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    width: 100%;
+  }
+  
+  .header {
+    height: 100px;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background: linear-gradient(#ECDCFF, #FFFFFF);
+  }
+  
+  .zepto-logo {
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    margin: 0 10px;
+  }
+  
+  .delivary-location {
+    height: 40px;
+    border: none;
+    margin: 0 10px;
+  }
+  
+  .delivary-location i {
+    cursor: pointer;
+  }
+  
+  .delivary-location h4 {
+    font-family: "Open Sans", serif;
+    letter-spacing: 0.5px;
+  }
+  
+  .delivary-location h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    padding-right: 2px;
+  }
+  
+  .search-bar {
+    height: 50px;
+    margin: 2px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border: 0.95px solid black;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+  
+  .search-bar i {
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #search {
+    flex-grow: 1;
+    cursor: text;
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    font-family: "Open Sans", serif;
+    margin: 0 5px;
+  }
+  
+  #search:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .login-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    height: 30px;
+    width: 100px;
+    margin: 0 10px;
+  }
+  
+  i {
+    margin-left: 10px;
+  }
+  
+  .login,
+  .cart {
+    cursor: pointer;
+  }
+  
+  .login h4 {
+    font-size: 0.85rem;
+    font-family: "Open Sans", serif;
+  }
+  
+  .cart h4 {
+    font-size: 0.85rem;
+    font-family: "Open Sans", serif;
+  }
+  
+  /* main section */
+  #mainpart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .zepto-branding img {
+    width: 100%;
+    background-size: cover;
+  }
+  
+  /* item section */
+  .items-section {
+    height: 300px;
+    width: 100%;
+  }
+  
+   h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Open Sans", serif;
+  }
+  
+  .items-box {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -35px;
+    
+  }
+  
+  .item {
+    height: 210px;
+    width: 140px;
+    background-size: cover;
+  }
+  
+  .item1 {
+    height: 210px;
+    width: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item1 img {
+    height: 190px;
+    width: 290px;
+  }
+  
+  .item2 {
+    background-image: url("dairy&products.webp");
+    background-size: cover;
+  }
+  
+  .item3 {
+    background-image: url("atta&rice.webp");
+    background-size: cover;
+  }
+  
+  .item4 {
+    background-image: url("meat&fish.webp");
+    background-size: cover;
+  }
+  
+  .item5 {
+    background-image: url("masala&dryfruits.webp");
+    background-size: cover;
+  }
+  
+  .item6 {
+    background-image: url("breakfast.webp");
+    background-size: cover;
+  }
+  
+  .item7 {
+    background-image: url("packagedfood.webp");
+    background-size: cover;
+  }
+  
+ 
+  .zepto-cafe {
+    background-image: url("zeptocafe.webp");
+    background-size: cover;
+  }
+  
+  .tea-coffee {
+    background-image: url("teaandcoffe.webp");
+    background-size: cover;
+  }
+  
+  .ice-cream {
+    background-image: url("icecream.webp");
+    background-size: cover;
+  }
+  
+  .forzen-food {
+    background-image: url("frozen.webp");
+    background-size: cover;
+  }
+  
+  .sweet-cravings {
+    background-image: url("sweetcraving.webp");
+    background-size: cover;
+  }
+  
+  .cold-drinks {
+    background-image: url("colddrink.webp");
+    background-size: cover;
+  }
+  
+  .munchies {
+    background-image: url("munchies.webp");
+    background-size: cover;
+  }
+  
+  .biscuits {
+    background-image: url("biscuits.webp");
+    background-size: cover;
+  }
+  .Home-needs {
+    background-image: url("Homeneeds.webp.png");
+    background-size: cover;
+    
+  }
+  .Kitchen {
+    background-image: url("Kitchen&dining.webp.png");
+    background-size: cover;
+  }
+  .Cleaning-essentials
+  {
+    background-image: url("Cleaningessential.webp.png") ;
+    background-size: cover;
+  }
+  .Electronics{
+    background-image: url("Electronics&appliances.webp.png") ;
+    background-size: cover;
+
+  }
+  .Pet-care{
+    background-image: url("petcare.webp.png") ;
+    background-size: cover;
+  }
+  .Toys{
+    background-image: url("Toys&sports.webp.png") ;
+    background-size: cover;
+  }
+  .Stationary   {
+    background-image: url("Stationery&books.webp.png") ;
+    background-size: cover;
+  }
+  .Paan-corner
+  {
+    background-image: url("Paancorner.webp.png");
+    background-size: cover;
+  }
+  
